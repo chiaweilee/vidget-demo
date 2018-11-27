@@ -16,7 +16,7 @@ npm run build
 
 ```html
 <div id="widget"></div>
-<script src="./dist/widget.js">
+<script src="./dist/widget.js"></script>
 <script>
 window.vidget('#widget', {
     // options
