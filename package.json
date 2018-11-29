@@ -3,8 +3,9 @@
   "version": "0.0.0",
   "description": "",
   "scripts": {
-    "start": "vue-cli-service serve",
-    "dev": "npm run start",
+    "start": "npm run serve",
+    "dev": "npm run serve",
+    "serve": "vidget-cli serve src/main.js",
     "build": "vidget-cli build --entry src/main.js",
     "lint": "eslint --ext .js,.vue,.json src --fix"
   },
@@ -19,15 +20,13 @@
   },
   "homepage": "https://github.com/chiaweilee/vidget-demo#readme",
   "devDependencies": {
-    "@vue/cli-service": "^3.1.4",
     "@vue/eslint-config-standard": "^4.0.0",
     "eslint": "^5.9.0",
     "eslint-friendly-formatter": "^4.0.1",
     "eslint-loader": "^2.1.1",
     "eslint-plugin-flowtype": "^3.2.0",
     "eslint-plugin-vue": "^4.7.1",
-    "remove-flow-types-loader": "^1.1.0",
-    "vidget": "^0.0.0-zeta"
+    "vidget": "^0.0.1"
   },
   "dependencies": {
     "vant": "1.4.5",

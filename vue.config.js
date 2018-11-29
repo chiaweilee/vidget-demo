@@ -1,10 +1,5 @@
 // vue.config.js
 module.exports = {
-  pages: {
-    index: {
-      entry: 'src/main.js'
-    }
-  },
   chainWebpack: config => {
     config.plugins.delete('preload')
     config.plugins.delete('prefetch')
