@@ -1,5 +1,7 @@
 ## Vidget Demo
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/chiaweilee/vidget-demo.svg)](https://greenkeeper.io/)
+
 ### Install
 
 ```
